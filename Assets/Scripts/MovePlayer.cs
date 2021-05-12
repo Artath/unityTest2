@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent (typeof (Rigidbody))]
 public class MovePlayer : MonoBehaviour
 {
-    private Camera cam;
+    
     private Rigidbody rb;
 
     private Vector3 velocity = Vector3.zero;
